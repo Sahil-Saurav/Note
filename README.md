@@ -7,3 +7,7 @@ ViewModel is located between the View and Model layers. This is where the contro
 Model take care of the logic for the program, which is retrieved by the ViewModel upon its own receipt of input from the user through View.
 # While working on this project I learned how to store the data entered by user locally on your phone,to achieve this I have used Room Database:
 The Room persistence library provides an abstraction layer over SQLite to allow for more robust database access while harnessing the full power of SQLite.
+# There Are three Major Components in Room:
+1) The database class that holds the database and serve as the main access point.
+2) Data Entities that represent the table in your Phone Application
+3) Data Access Objects(DAO) that provides Method that your app can use to query,update,insert,delete,sort etc.
